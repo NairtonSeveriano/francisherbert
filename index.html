@@ -52,12 +52,12 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
                 <div class="flex items-center gap-2">
-                    <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center font-bold text-xl">FH</div>
+                    <div class="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center font-bold text-xl text-white">FH</div>
                     <span class="font-extrabold text-xl tracking-tighter uppercase">Francis <span class="text-blue-500">Herbert</span></span>
                 </div>
-                <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest">
+                <div class="hidden md:flex space-x-8 text-sm font-medium uppercase tracking-widest text-white">
                     <a href="#inicio" class="hover:text-blue-500 transition">Início</a>
-                    <a href="#materiais" class="hover:text-blue-500 transition text-blue-400">Receber Materiais</a>
+                    <a href="#materiais" class="hover:text-blue-500 transition text-blue-400 font-bold italic">Receber Materiais</a>
                     <a href="#historia" class="hover:text-blue-500 transition">Trajetória</a>
                     <a href="#conquistas" class="hover:text-blue-500 transition">Conquistas</a>
                 </div>
@@ -65,7 +65,7 @@
         </div>
     </nav>
 
-    <!-- Hero Section / Banner Inicial -->
+    <!-- Hero Section -->
     <section id="inicio" class="pt-32 pb-16 px-4 bg-hero min-h-screen flex items-center overflow-hidden">
         <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
             <div class="space-y-8 z-10">
@@ -76,7 +76,7 @@
                     A FORÇA DA <br> <span class="text-blue-500">ENFERMAGEM</span> <br> EM PERNAMBUCO.
                 </h1>
                 <p class="text-xl text-gray-400 leading-relaxed max-w-lg">
-                    Francis Herbert: o líder que uniu a categoria, fundou o SATENPE e não descansa enquanto o Piso não estiver no bolso de cada trabalhador.
+                    Francis Herbert: o líder que uniu a categoria, fundou o SATENPE e luta para que o Piso esteja no bolso de cada trabalhador.
                 </p>
                 <div class="flex flex-col sm:flex-row gap-4">
                     <a href="#materiais" class="breathing px-10 py-5 bg-blue-600 text-white font-black rounded-xl text-center hover:bg-blue-700 transition shadow-2xl shadow-blue-600/40 uppercase tracking-tighter text-lg">
@@ -87,7 +87,7 @@
             
             <div class="relative flex justify-center">
                 <div class="absolute -inset-10 bg-blue-500/30 blur-[120px] rounded-full opacity-50"></div>
-                <!-- Banner Image (francis1.png) -->
+                <!-- Imagem francis1.png -->
                 <div class="relative w-full max-w-md">
                     <img src="francis1.png" alt="Francis Herbert com punho erguido" class="rounded-3xl shadow-2xl border border-white/10 img-mask">
                     <div class="absolute bottom-10 left-0 right-0 p-6 bg-black/40 backdrop-blur-xl border border-white/10 rounded-2xl mx-6">
@@ -104,52 +104,52 @@
     <!-- Form Section -->
     <section id="materiais" class="py-20 bg-blue-600">
         <div class="max-w-7xl mx-auto px-4">
-            <div class="bg-black p-8 md:p-12 rounded-[2rem] shadow-2xl grid md:grid-cols-2 gap-12 items-center">
+            <div class="bg-black p-8 md:p-12 rounded-[2rem] shadow-2xl grid md:grid-cols-2 gap-12 items-center text-white">
                 <div>
-                    <h2 class="text-3xl md:text-4xl font-extrabold mb-4 uppercase tracking-tighter">Receba as atualizações do Francis</h2>
-                    <p class="text-gray-400 text-lg">Cadastre-se para receber materiais exclusivos sobre o Piso da Enfermagem, leis trabalhistas e ações do SATENPE diretamente no seu celular.</p>
+                    <h2 class="text-3xl md:text-4xl font-extrabold mb-4 uppercase tracking-tighter">Receba os materiais do Francis</h2>
+                    <p class="text-gray-400 text-lg">Cadastre-se para receber conteúdos exclusivos sobre o Piso da Enfermagem, leis trabalhistas e ações do SATENPE diretamente no seu WhatsApp.</p>
                 </div>
-                <form class="space-y-4" onsubmit="event.preventDefault(); alert('Cadastro realizado! Em breve você receberá nossos materiais.');">
+                <form class="space-y-4" onsubmit="event.preventDefault(); alert('Cadastro realizado! Em breve receberá os materiais.');">
                     <div class="grid sm:grid-cols-2 gap-4">
                         <div class="sm:col-span-2">
-                            <input type="email" required class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 focus:border-blue-500 outline-none transition text-white" placeholder="Seu melhor E-mail">
+                            <input type="email" required class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 focus:border-blue-500 outline-none transition text-white placeholder-gray-500" placeholder="O seu melhor E-mail">
                         </div>
                         <div>
-                            <input type="text" required class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 focus:border-blue-500 outline-none transition text-white" placeholder="WhatsApp (com DDD)">
+                            <input type="text" required class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 focus:border-blue-500 outline-none transition text-white placeholder-gray-500" placeholder="WhatsApp (com DDD)">
                         </div>
                         <div>
-                            <input type="text" required class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 focus:border-blue-500 outline-none transition text-white" placeholder="Seu Município">
+                            <input type="text" required class="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 focus:border-blue-500 outline-none transition text-white placeholder-gray-500" placeholder="O seu Município">
                         </div>
                     </div>
                     <button type="submit" class="w-full py-5 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-black uppercase tracking-widest transition-all hover:scale-[1.02] shadow-xl shadow-blue-600/20">
                         Quero receber os materiais
                     </button>
-                    <p class="text-[10px] text-center text-gray-500 uppercase font-bold">Respeitamos sua privacidade. Seus dados estão seguros.</p>
+                    <p class="text-[10px] text-center text-gray-500 uppercase font-bold">Respeitamos a sua privacidade.</p>
                 </form>
             </div>
         </div>
     </section>
 
-    <!-- Bio / Human Side Section -->
+    <!-- Bio Section -->
     <section id="historia" class="py-24">
         <div class="max-w-7xl mx-auto px-4">
             <div class="grid md:grid-cols-2 gap-16 items-center">
                 <div class="order-2 md:order-1">
-                    <img src="francis5.png" alt="Francis Herbert abraçando uma pessoa" class="rounded-3xl border border-white/10 shadow-2xl">
+                    <img src="francis5.png" alt="Francis Herbert num abraço fraternal" class="rounded-3xl border border-white/10 shadow-2xl">
                 </div>
                 <div class="space-y-6 order-1 md:order-2">
-                    <h2 class="text-4xl font-extrabold uppercase italic border-l-8 border-blue-600 pl-6">Quem é Francis Herbert?</h2>
+                    <h2 class="text-4xl font-extrabold uppercase italic border-l-8 border-blue-600 pl-6">Raízes e Família</h2>
                     <p class="text-xl text-gray-300 leading-relaxed">
-                        Recifense de 52 anos, Francis é o reflexo da luta do trabalhador pernambucano. Pai de dois filhos e casado, ele entende que a dignidade da enfermagem reflete diretamente na mesa de cada família.
+                        Recifense de 52 anos, Francis é casado e pai de dois filhos. Ele entende que a valorização da enfermagem é, acima de tudo, o sustento e a dignidade de milhares de famílias pernambucanas.
                     </p>
                     <div class="grid grid-cols-2 gap-4">
                         <div class="card-glass p-4 rounded-xl">
                             <p class="text-3xl font-black text-blue-500">1995</p>
-                            <p class="text-xs uppercase font-bold text-gray-500 tracking-widest">Ano de início na luta sindical</p>
+                            <p class="text-xs uppercase font-bold text-gray-500 tracking-widest">O início da jornada</p>
                         </div>
                         <div class="card-glass p-4 rounded-xl">
-                            <p class="text-3xl font-black text-blue-500">Pai</p>
-                            <p class="text-xs uppercase font-bold text-gray-500 tracking-widest">Valores de família acima de tudo</p>
+                            <p class="text-3xl font-black text-blue-500">Recife</p>
+                            <p class="text-xs uppercase font-bold text-gray-500 tracking-widest">Base e Origem</p>
                         </div>
                     </div>
                 </div>
@@ -164,66 +164,66 @@
                 <div class="space-y-6">
                     <h2 class="text-4xl font-extrabold uppercase italic tracking-tighter">O Criador do SATENPE</h2>
                     <p class="text-lg text-gray-400">
-                        Francis não apenas viu o problema, ele criou a solução. O Sindicato dos Técnicos de Enfermagem de Pernambuco nasceu da sua visão de que a categoria precisava de uma voz independente e combativa.
+                        A visão de Francis Herbert transformou a categoria com a criação do Sindicato dos Técnicos de Enfermagem de Pernambuco, uma instituição que hoje é referência nacional em resistência.
                     </p>
                     <div class="flex items-start gap-4 p-4 border-l-2 border-blue-600 bg-blue-600/5">
                         <i data-lucide="users" class="text-blue-500 mt-1"></i>
-                        <p class="text-sm font-medium">Liderança em hospitais públicos e privados, garantindo que nenhum técnico ou auxiliar seja deixado para trás.</p>
+                        <p class="text-sm font-medium">Atuação constante em hospitais e unidades de saúde para garantir o cumprimento dos direitos trabalhistas.</p>
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="francis3.png" alt="Francis com grupo de profissionais de enfermagem" class="rounded-3xl shadow-2xl border border-white/10">
+                    <img src="francis3.png" alt="Francis com a base da enfermagem" class="rounded-3xl shadow-2xl border border-white/10">
                     <div class="absolute -bottom-6 -right-6 bg-blue-600 px-6 py-4 rounded-2xl hidden md:block">
-                        <p class="text-xs font-bold uppercase tracking-widest">União & Vitória</p>
+                        <p class="text-xs font-bold uppercase tracking-widest text-white italic">União Faz a Força</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Piso Salarial Section -->
+    <!-- Mobilização Section -->
     <section id="conquistas" class="py-24">
         <div class="max-w-7xl mx-auto px-4">
             <div class="text-center mb-16">
-                <h2 class="text-5xl font-black uppercase italic tracking-tighter mb-4">A Luta Pelo Piso</h2>
+                <h2 class="text-5xl font-black uppercase italic tracking-tighter mb-4">Luta e Mobilização</h2>
                 <div class="h-2 w-24 bg-blue-600 mx-auto"></div>
             </div>
             
-            <div class="grid md:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-3 gap-8 text-white">
                 <div class="card-glass p-8 rounded-3xl space-y-4 text-center">
-                    <img src="francis4.png" alt="Cartaz de Greve e Piso Salarial" class="rounded-xl mb-4 grayscale hover:grayscale-0 transition duration-500 w-full">
-                    <h3 class="text-xl font-extrabold uppercase tracking-tight text-blue-400">Mobilização de Rua</h3>
-                    <p class="text-sm text-gray-400">Greves estratégicas e manifestações que forçaram o diálogo com o poder público e privado.</p>
+                    <img src="francis4.png" alt="Flyer de convocação para greve" class="rounded-xl mb-4 grayscale hover:grayscale-0 transition duration-500 w-full object-cover">
+                    <h3 class="text-xl font-extrabold uppercase tracking-tight text-blue-400">Respeito e Dignidade</h3>
+                    <p class="text-sm text-gray-400">Mobilizações estratégicas pela implementação do piso salarial em todas as redes de saúde.</p>
                 </div>
                 <div class="card-glass p-8 rounded-3xl space-y-4 text-center">
-                    <img src="francis2.png" alt="Francis em ação na frente de mobilização" class="rounded-xl mb-4 grayscale hover:grayscale-0 transition duration-500 w-full">
-                    <h3 class="text-xl font-extrabold uppercase tracking-tight text-blue-400">Presença em Brasília</h3>
-                    <p class="text-sm text-gray-400">Articulação direta com parlamentares para garantir que o Piso da Enfermagem se tornasse realidade.</p>
+                    <img src="francis2.png" alt="Francis liderando manifestação" class="rounded-xl mb-4 grayscale hover:grayscale-0 transition duration-500 w-full object-cover">
+                    <h3 class="text-xl font-extrabold uppercase tracking-tight text-blue-400">Presença na Base</h3>
+                    <p class="text-sm text-gray-400">Sempre presente onde o trabalhador está, ouvindo e organizando as lutas necessárias.</p>
                 </div>
                 <div class="card-glass p-8 rounded-3xl flex flex-col justify-center items-center text-center space-y-6">
-                    <i data-lucide="award" size="64" class="text-blue-500"></i>
-                    <h3 class="text-2xl font-black uppercase">Resultado: <br> RESPEITO</h3>
-                    <p class="text-gray-400 text-sm">A estruturação de sindicatos por todo o Brasil servindo como modelo de dignidade para o profissional.</p>
-                    <a href="#materiais" class="text-blue-500 font-bold uppercase text-xs tracking-widest hover:underline">Faça parte do movimento →</a>
+                    <i data-lucide="message-square" size="64" class="text-blue-500"></i>
+                    <h3 class="text-2xl font-black uppercase tracking-tighter">Precisa de Ajuda <br> Sindical?</h3>
+                    <p class="text-gray-400 text-sm italic">Fale agora com o Francis e sua equipa para suporte e orientações.</p>
+                    <a href="https://wa.me/5581900000000" target="_blank" class="px-6 py-3 bg-blue-600 rounded-lg font-bold uppercase text-xs tracking-widest hover:bg-blue-700 transition">Enviar WhatsApp</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="py-16 px-4 border-t border-white/10">
+    <footer class="py-16 px-4 border-t border-white/10 bg-black">
         <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 items-center">
             <div class="text-center md:text-left">
-                <p class="font-extrabold uppercase text-2xl tracking-tighter">Francis <span class="text-blue-500">Herbert</span></p>
-                <p class="text-xs text-gray-500 mt-2 font-bold tracking-widest uppercase">Pela Enfermagem de Pernambuco</p>
+                <p class="font-extrabold uppercase text-2xl tracking-tighter text-white">Francis <span class="text-blue-500">Herbert</span></p>
+                <p class="text-xs text-gray-500 mt-2 font-bold tracking-widest uppercase italic">Compromisso com Pernambuco</p>
             </div>
             <div class="flex justify-center gap-6">
-                <a href="https://www.instagram.com/francisherbertoficial/" target="_blank" class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center hover:bg-blue-600 transition"><i data-lucide="instagram" size="24"></i></a>
-                <a href="https://www.facebook.com/profile.php?id=61564320068177&ref=NONE_xav_ig_profile_page_web#" target="_blank" class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center hover:bg-blue-600 transition"><i data-lucide="facebook" size="24"></i></a>
-                <a href="https://wa.me/5581900000000" target="_blank" class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center hover:bg-green-600 transition"><i data-lucide="message-circle" size="24"></i></a>
+                <a href="https://www.instagram.com/francisherbertoficial/" target="_blank" class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center hover:bg-blue-600 transition text-white"><i data-lucide="instagram" size="24"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=61564320068177&ref=NONE_xav_ig_profile_page_web#" target="_blank" class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center hover:bg-blue-600 transition text-white"><i data-lucide="facebook" size="24"></i></a>
+                <a href="https://wa.me/5581900000000" target="_blank" class="w-12 h-12 bg-white/5 rounded-full flex items-center justify-center hover:bg-green-600 transition text-white"><i data-lucide="message-circle" size="24"></i></a>
             </div>
             <div class="text-center md:text-right">
-                <p class="text-[10px] text-gray-600 uppercase font-black tracking-[0.2em]">© 2024 - Liderança de Verdade</p>
+                <p class="text-[10px] text-gray-600 uppercase font-black tracking-[0.2em]">© 2024 - Todos os direitos reservados</p>
             </div>
         </div>
     </footer>
@@ -231,15 +231,19 @@
     <script>
         lucide.createIcons();
 
+        // Smooth scroll
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if(target) {
-                    window.scrollTo({
-                        top: target.offsetTop - 80,
-                        behavior: 'smooth'
-                    });
+                const href = this.getAttribute('href');
+                if (href.startsWith('#')) {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if(target) {
+                        window.scrollTo({
+                            top: target.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                    }
                 }
             });
         });
